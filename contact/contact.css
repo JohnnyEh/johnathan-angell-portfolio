@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-image: url("../port-bkg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+h1 {
+	font-family: "philosopher", "trebuchet ms", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 4rem;
+	text-align: center;
+	margin: 10rem 1rem 1rem 1rem;
+	color: #000;
+}
+
+ul {
+	width: 100%;
+	list-style: none;
+	margin-top: 5rem;
+	text-align: center;
+}
+
+li {
+	width: 30%;
+	margin: 1rem;
+	float: left;
+}
+
+@media screen and (max-width: 1000px) {
+	ul {
+		width: 94%;
+		padding: 0;
+		margin: 5rem 23% 0 23%;
+	}
+	li {
+		float: none;
+		width: 50%;
+	}
+}

@@ -80,6 +80,19 @@ button:hover {
 	background-image: url("portfolio-webport.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.contact {
+	background-image: url("phone-icon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
 }
 
 footer {
