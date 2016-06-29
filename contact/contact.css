@@ -37,6 +37,9 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
+	body {
+		background-image: url(../port-bkg-mobile.jpg)
+	}
 	ul {
 		width: 94%;
 		padding: 0;
