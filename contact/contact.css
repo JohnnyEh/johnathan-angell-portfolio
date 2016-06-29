@@ -7,11 +7,10 @@ html {
 }
 
 body {
-	background-image: url("../port-bkg.jpg");
+	background-image: url("../port-bkg2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
 }
 
 h1 {
@@ -39,7 +38,7 @@ li {
 
 @media screen and (max-width: 1000px) {
 	ul {
-		width: 94%;
+		width: 100%;
 		padding: 0;
 		margin: 5rem 23% 0 23%;
 	}
