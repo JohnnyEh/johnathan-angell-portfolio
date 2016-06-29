@@ -38,12 +38,12 @@ li {
 
 @media screen and (max-width: 1000px) {
 	ul {
-		width: 100%;
+		width: 94%;
 		padding: 0;
 		margin: 5rem 23% 0 23%;
+		text-align: center;
 	}
 	li {
-		float: none;
 		width: 50%;
 	}
 }
